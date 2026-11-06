@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>STUDENT REGISTRATION FORM</h1>
+            <p>Student Management</p>
+        </header>
+
+        <div class="content-wrapper">
+            <!-- Add Form Section -->
+            <div class="card form-panel" id="form">
+                <h2>Add New Student</h2>
+                <table id="formTable">
+                    <tr>
+                        <td><p>NAME</p></td>
+                        <td><input type="text" id="inputName" class="input-control" placeholder="Enter name..."></td>
+                    </tr>
+                    <tr>
+                        <td><p>AGE</p></td>
+                        <td><input type="number" id="inputAge" class="input-control" placeholder="Enter age..."></td>
+                    </tr>
+                    <tr>
+                        <td><p>GENDER</p></td>
+                        <td>
+                            <div class="radio-group" id="inputGender">
+                                <label><input type="radio" name="gender" value="Male" checked> Male</label>
+                                <label><input type="radio" name="gender" value="Female"> Female</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>COURSE</p></td>
+                        <td>
+                            <select id="inputCourse" class="input-control">
+                                <option value="Python">Python</option>
+                                <option value="HTML & CSS">HTML & CSS</option>
+                                <option value="Javascript">Javascript</option>
+                                <option value="Java">Java</option>
+                                <option value="React">React</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>E-MAIL</p></td>
+                        <td><input type="email" id="inputEmail" class="input-control" placeholder="Enter email"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button id="btnSave">Save</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Registered Students Table Section -->
+            <div class="card table-panel" id="folder">
+                <h2>Registered Students</h2>
+                <table id="folderTable">
+                    <thead>
+                        <tr>
+                            <th>NAME</th>
+                            <th>AGE</th>
+                            <th>COURSE</th>
+                            <th>GENDER</th>
+                            <th>E-MAIL</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentList">
+                        <tr>
+                            <td>Titus</td>
+                            <td>17</td>
+                            <td>Javascript</td>
+                            <td>Male</td>
+                            <td>errortitus@gmail.com</td>
+                            <td><button class="btnDel" onclick="initialDelete(this)">Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
