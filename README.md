@@ -24,9 +24,7 @@ A sleek, responsive web application for managing student registration details bu
 
 ## Run this Repository
 
-   ```bash
-   https://errortitus.github.io/students-register-form/
-   ```
+   [https://errortitus.github.io/students-register-form/]
 
 ## Tech Stack
 
