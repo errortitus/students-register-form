@@ -25,7 +25,7 @@ A sleek, responsive web application for managing student registration details bu
 ## Run this Repository
 
    ```bash
-   git clone https://github.com/your-username/student-registration-form.git
+   [git clone https://github.com/your-username/student-registration-form.git](https://errortitus.github.io/students-register-form/)
    ```
 
 ## Tech Stack
