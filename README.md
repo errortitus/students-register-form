@@ -22,17 +22,11 @@ A sleek, responsive web application for managing student registration details bu
 └── script.js    # JavaScript dynamic logic
 ```
 
-## How to Run
+## Run this Repository
 
-1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/student-registration-form.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd student-registration-form
-   ```
-3. Open `index.html` directly in your browser.
 
 ## Tech Stack
 
